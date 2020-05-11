@@ -1,0 +1,19 @@
+server.port=8082
+spring.datasource.url=jdbc:mysql://localhost:3306/OnlineDonation
+spring.datasource.username=root
+spring.datasource.password=meghana
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=create
+spring.application.name=Donation-Service
+
+logging.level.s7.Application=WARN
+logging.level.org.springframework.web=ERROR
+logging.level.com.cts.review=DEBUG
+
+ #Logging pattern for the console
+logging.pattern.console= "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+#logging pattern for file
+logging.pattern.file= "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+logging.file.name=C:\sts-4.6.1.RELEASE
